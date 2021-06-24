@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-left-box {
+  width: 7%;
+}
+
+.container-right-box {
+  width: 93%;
+  height: 100%;
+}
+
+.logo img {
+  height: 2.5vw;
+  width: 2.5vw;
+  margin-top: 3vw;
+  margin-left: 2.5vw;
+}
+
+.logo-tag span {
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 8vw;
+  font-size: 1.6vw;
+  margin-left: 0vw;
+}
+
+.container-left-box .left-section {
+  background-color: black;
+  color: white;
+  height: 50vh;
+}
+
+.bar img {
+  height: 1.8vw;
+  width: 1.8vw;
+  margin-top: 2vw;
+  margin-left: 2.5vw;
+}
+
+.technolog-tag span {
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 10vw;
+  font-size: 1.6vw;
+  margin-left: -1vw;
+}
+
+.banner {
+  background-color: #f5f5f5;
+}
+
+.banner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner-container-left {
+  width: 50%;
+  margin-top: 10vw;
+  padding-left: 10vw;
+}
+
+.banner-container-left-lowertext {
+  margin-top: 5vw;
+}
+
+.banner-container-right {
+  width: 50%;
+  padding-top: 5vw;
+}
+
+.banner-container-right img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.banner-container-left span, .line {
+  display: inline-block;
+}
+
+.line {
+  height: 0.2vw;
+  background: black;
+  width: 5vw;
+  margin: 0 1vw 0.2vw 1vw;
+}
+
+.banner-heading {
+  font-size: 4vw;
+  line-height: 1.3;
+}
+
+.banner-heading span {
+  display: inline-block;
+  color: #fb6554;
+}
+
+.block-trike-container {
+  background-color: #e6e6e6;
+}
+
+.blocks {
+  background: white;
+  width: calc(100% - 15vw);
+  margin-left: 7.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-section {
+  width: 25%;
+  padding: 1.5vw;
+  border-right: 1px solid silver;
+}
+
+.block-section-ptag {
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.block-section-sptag {
+  display: inline-block;
+  margin-top: 1vw;
+  font-size: 1.2vw;
+}
+
+.bike-share-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 10vw);
+  margin-left: 5vw;
+}
+
+.bike-share-section .bike-share-section-left {
+  width: 50%;
+  padding: 2vw 3vw;
+}
+
+.bike-share-section .bike-share-section-right {
+  width: 50%;
+  padding: 2vw 3vw;
+}
+
+.bike-share-section .bike-share-ptag {
+  font-size: 3vw;
+}
+
+.bike-share-section .line {
+  height: 0.2vw;
+  background: black;
+  width: 3vw;
+  margin: 0 1vw 0.2vw 1vw;
+  margin-top: 5vw;
+}
+
+.bike-share-section .bike-share-sptag {
+  font-size: 1.1vw;
+  display: block;
+  margin-top: 5vw;
+}
+
+.bike-share-section .bike-share-smptag {
+  font-weight: 600;
+  margin-top: 2vw;
+  font-size: 1.1vw;
+}
+
+.numberandcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 10vw);
+  margin-left: 5vw;
+  padding-bottom: 5vw;
+}
+
+.numberandcard .numberandcard-left {
+  width: 50%;
+  padding: 1vw 3vw;
+}
+
+.numberandcard .numberandcard-left .numtag {
+  font-size: 15vw;
+  font-weight: 600;
+  color: white;
+}
+
+.numberandcard .numberandcard-right {
+  width: 50%;
+  padding: 1vw 3vw;
+  height: 15vw;
+  background-color: white;
+}
+
+.numberandcard .numberandcard-right h4 {
+  margin-top: 2vw;
+}
+
+.numberandcard .numberandcard-right .numberandcard-right-ptag {
+  margin-top: 5vw;
+}
+
+.cycleslider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cycleslider .cycleslider-container {
+  width: 400%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: auto;
+  margin-left: -50%;
+}
+
+.cycleslider .cycleslider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.cycleslider .cycleslider-container .cycleslider-container-box {
+  padding: 5vw 5vw 5vw 0;
+  width: 100%;
+  -webkit-animation: movingcycle 30s linear infinite;
+          animation: movingcycle 30s linear infinite;
+}
+
+@-webkit-keyframes movingcycle {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes movingcycle {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.bike-share-your-way {
+  background: #fb6554;
+}
+
+.share-way-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10vw 5vw 0 0;
+}
+
+.share-way-container .share-way-container-left {
+  width: 50%;
+  padding-right: 5vw;
+}
+
+.share-way-container .share-way-container-left .share-way-container-left-text {
+  padding: 0 0 0 10vw;
+}
+
+.share-way-container .share-way-container-left .dockless-app {
+  margin-top: 5vw;
+  padding-bottom: 5vw;
+  margin-bottom: 5vw;
+}
+
+.share-way-container .share-way-container-left .dockless-app .dockless-app-right {
+  position: absolute;
+  left: 16%;
+  z-index: 5;
+  height: 35vw;
+  top: 35%;
+}
+
+.share-way-container .share-way-container-left .dockless-app .dockless-app-left {
+  margin-left: -3vw;
+  height: 25vw;
+}
+
+.share-way-container .share-way-container-left .share-way-container-right-ptag {
+  font-size: 3vw;
+  font-weight: 400;
+  color: white;
+}
+
+.share-way-container .share-way-container-left .share-way-container-right-sptag {
+  margin-top: 6vw;
+  display: inline-block;
+  color: white;
+  line-height: 1.4;
+}
+
+.share-way-container .share-way-container-right {
+  width: 50%;
+  padding-left: 5vw;
+  color: white;
+}
+
+.share-way-container .share-way-container-right .cycle-logo {
+  background-color: white;
+  height: 4.5vw;
+  width: 4.5vw;
+  padding: 1vw;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 2vw;
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+}
+
+.share-way-container .share-way-container-right .cycle-logo:hover {
+  fill: white;
+  background-color: black;
+}
+
+.share-way-container .share-way-container-right .cycle-logo:hover svg {
+  fill: white;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-ptag {
+  font-size: 1.2vw;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-firstsec {
+  margin-top: 5vw;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-firstsec a {
+  padding: 1vw 2vw;
+  border: 1px solid white;
+  border-radius: 1.5vw;
+  color: white;
+  text-decoration: none;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-firstsec .dock-based, .share-way-container .share-way-container-right .share-way-container-right-firstsec .hybrid {
+  margin-left: 1vw;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-firstsec .dock-based:hover, .share-way-container .share-way-container-right .share-way-container-right-firstsec .hybrid:hover {
+  background-color: white;
+  color: #fb6554;
+  border: 1px solid #fb6554;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-firstsec .bockless-btn {
+  background-color: white;
+  color: #fb6554;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-point {
+  margin-top: 6vw;
+  padding-left: 2vw;
+}
+
+.share-way-container .share-way-container-right .share-way-container-right-point ul li {
+  margin-top: 0.5vw;
+  font-size: 1.1vw;
+}
+
+.partner-export {
+  background-color: #e6e6e6;
+}
+
+.partner-export .partner-exportcontainer {
+  padding: 10vw 10vw 0 10vw;
+}
+
+.partner-export .partner-exportcontainer-sectionfirst span {
+  display: inline-block;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond {
+  margin-top: 5vw;
+  position: relative;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-image {
+  height: 40vw;
+  overflow: hidden;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: right;
+     object-position: right;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-text {
+  background: white;
+  width: 35vw;
+  padding: 4vw;
+  position: absolute;
+  top: 10%;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-text p {
+  font-size: 2.1vw;
+  line-height: 1.3;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-text .line {
+  margin-top: 2vw;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.partner-export .partner-exportcontainer-sectionsecond .partner-exportcontainer-sectionsecond-text span {
+  display: inline-block;
+  margin-top: 2vw;
+  font-size: 0.8vw;
+}
+
+.partner-export .movingtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 18vw;
+  overflow: hidden;
+  margin-left: 14%;
+  width: 100%;
+  font-weight: 600;
+}
+
+.partner-export .movingtext .movingtext-word {
+  width: 100%;
+  padding: 0 10vw;
+  color: white;
+  -webkit-animation: movingtext 10s linear infinite;
+          animation: movingtext 10s linear infinite;
+}
+
+@-webkit-keyframes movingtext {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes movingtext {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+/*# sourceMappingURL=main.css.map */
