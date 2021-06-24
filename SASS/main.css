@@ -455,7 +455,11 @@ body {
   font-size: 0.8vw;
 }
 
-.partner-export .movingtext {
+.partner-export .moving-expert-text {
+  overflow: hidden;
+}
+
+.partner-export .moving-expert-text .movingtext {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,12 +469,11 @@ body {
           flex-direction: row;
   font-size: 18vw;
   overflow: hidden;
-  margin-left: 14%;
   width: 100%;
   font-weight: 600;
 }
 
-.partner-export .movingtext .movingtext-word {
+.partner-export .moving-expert-text .movingtext .movingtext-word {
   width: 100%;
   padding: 0 10vw;
   color: white;
@@ -498,5 +501,57 @@ body {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
+}
+
+.logosection {
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 10vw;
+  margin-top: 5vw;
+}
+
+.logosection .logosection-container {
+  width: calc(100% - 10vw);
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logosection .logosection-container .logosection-container-box {
+  width: 25%;
+}
+
+.logosection .logosection-container .logosection-container-box span {
+  display: inline-block;
+  margin-top: 2vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(2) {
+  padding-left: 3vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(3) {
+  padding-left: 3vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(4) {
+  padding-left: 3vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(6) {
+  padding-left: 3vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(7) {
+  padding-left: 3vw;
+}
+
+.logosection .logosection-container .logosection-container-box:nth-child(8) {
+  padding-left: 3vw;
 }
 /*# sourceMappingURL=main.css.map */
